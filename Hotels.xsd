@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
 
 	<!-- Root element -->
 	<xs:element name="Hotels">
@@ -9,25 +10,34 @@
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="Name" type="xs:string"/>
-							<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="2"/>
-							<xs:element name="Address">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="Number" type="xs:positiveInteger"/>
-										<xs:element name="Street" type="xs:string"/>
-										<xs:element name="City" type="xs:string"/>
-										<xs:element name="State" type="xs:string" minOccurs="1"/>
-										<xs:element name="Zip" type="xs:string"/>
-										<xs:element name="NearestAirport" type="xs:string"/>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="Rating" type="xs:decimal"/>
+							<xs:element name="Phone" type="PhoneType" maxOccurs="unbounded"/>
+							<xs:element name="Address" type="AddressType"/>
+							<!-- Optional element -->
+							<xs:element name="Rating" type="xs:decimal" minOccurs="0"/>
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+
+	<!-- Custom type for Address -->
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element name="Number" type="xs:int"/>
+			<xs:element name="Street" type="xs:string"/>
+			<xs:element name="City" type="xs:string"/>
+			<xs:element name="State" type="xs:string"/>
+			<xs:element name="Zip" type="xs:int"/>
+			<xs:element name="NearestAirport" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Custom type for Phone numbers -->
+	<xs:simpleType name="PhoneType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{3}-\d{3}-\d{4}"/>
+		</xs:restriction>
+	</xs:simpleType>
 
 </xs:schema>

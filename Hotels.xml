@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+	<Hotel>
+		<Name>Westin Tempe</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address>
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+		<Rating>4.2</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>Hilton Chicago</Name>
+		<Phone>312-922-4400</Phone>
+		<Address>
+			<Number>720</Number>
+			<Street>S Michigan Ave</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60605</Zip>
+			<NearestAirport>O’Hare International Airport</NearestAirport>
+		</Address>
+		<Rating>4.5</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>Marriott Marquis New York</Name>
+		<Phone>212-398-1900</Phone>
+		<Address>
+			<Number>1535</Number>
+			<Street>Broadway</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10036</Zip>
+			<NearestAirport>JFK International Airport</NearestAirport>
+		</Address>
+		<Rating>4.6</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>Hyatt Regency San Francisco</Name>
+		<Phone>415-788-1234</Phone>
+		<Phone>800-233-1234</Phone>
+		<Address>
+			<Number>5</Number>
+			<Street>Embarcadero Center</Street>
+			<City>San Francisco</City>
+			<State>CA</State>
+			<Zip>94111</Zip>
+			<NearestAirport>SFO</NearestAirport>
+		</Address>
+		<Rating>4.4</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>Ritz-Carlton Dallas</Name>
+		<Phone>214-922-0200</Phone>
+		<Address>
+			<Number>2121</Number>
+			<Street>McKinney Ave</Street>
+			<City>Dallas</City>
+			<State>TX</State>
+			<Zip>75201</Zip>
+			<NearestAirport>DFW International Airport</NearestAirport>
+		</Address>
+		<Rating>4.7</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>Omni Nashville Hotel</Name>
+		<Phone>615-782-5300</Phone>
+		<Address>
+			<Number>250</Number>
+			<Street>5th Ave S</Street>
+			<City>Nashville</City>
+			<State>TN</State>
+			<Zip>37203</Zip>
+			<NearestAirport>Nashville International Airport</NearestAirport>
+		</Address>
+		<Rating>4.6</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>Four Seasons Boston</Name>
+		<Phone>617-338-4400</Phone>
+		<Address>
+			<Number>200</Number>
+			<Street>Boylston St</Street>
+			<City>Boston</City>
+			<State>MA</State>
+			<Zip>02116</Zip>
+			<NearestAirport>Logan International Airport</NearestAirport>
+		</Address>
+		<Rating>4.8</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>JW Marriott Austin</Name>
+		<Phone>512-474-4777</Phone>
+		<Address>
+			<Number>110</Number>
+			<Street>E 2nd St</Street>
+			<City>Austin</City>
+			<State>TX</State>
+			<Zip>78701</Zip>
+			<NearestAirport>AUS</NearestAirport>
+		</Address>
+		<Rating>4.7</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>Fairmont Washington DC Georgetown</Name>
+		<Phone>202-429-2400</Phone>
+		<Address>
+			<Number>2401</Number>
+			<Street>M St NW</Street>
+			<City>Washington</City>
+			<State>DC</State>
+			<Zip>20037</Zip>
+			<NearestAirport>DCA</NearestAirport>
+		</Address>
+		<Rating>4.5</Rating>
+	</Hotel>
+
+	<Hotel>
+		<Name>W Miami</Name>
+		<Phone>305-503-4400</Phone>
+		<Address>
+			<Number>485</Number>
+			<Street>Brickell Ave</Street>
+			<City>Miami</City>
+			<State>FL</State>
+			<Zip>33131</Zip>
+			<NearestAirport>Miami International Airport</NearestAirport>
+		</Address>
+		<Rating>4.3</Rating>
+	</Hotel>
+
+</Hotels>
